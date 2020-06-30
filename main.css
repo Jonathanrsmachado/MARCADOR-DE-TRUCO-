@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index{
+    background-image: url('img/0-Baralho-Dolgachov-80156318_m.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.formulario{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+   
+}
+
+.jogador{
+    width: 296px;
+    height: 25px;
+    outline: none;
+    padding-top: 5px;
+    line-height: 25px;
+}
+
+.enviar{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px solid black; 
+}
+
+.preenchimento{
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.titulo{
+    padding-bottom: 5px;
+}
+
+.placar{
+    width: 300px;
+    float: left;
+    height: 300px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.numero{
+    width: 300px;
+    height: 300px;
+    font-size: 250px;
+    text-align: center;
+    border: none;
+}
+
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.placar-duplo{
+    border: 2px solid black;
+    float: left;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+
+input[type=none]{outline:none}
+
+.P1{
+    height: 30px;
+    width: 300px;
+    padding: 0;
+    border: none;
+
+}
+
+#placar{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: transparent;
+}
+
+#j1{
+    width: 300px;
+    height: 30px;
+    margin-top: 6px;
+    border: none;
+    background-color: white;
+    color: black;
+    background-image: url(img/copas.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+#j1-{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    background-image: url(img/copas.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+#j2{
+    width: 300px;
+    margin-top: 30px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    background-image: url(img/Naipe_paus.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+
+#j2-{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    background-image: url(img/Naipe_paus.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+#reiniciar{
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    background-image: url(img/reset.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+#P1{
+    height: 150px;
+    width: 140px;
+    text-align: center;
+    font-size: 80px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+#P2{
+    height: 150px;
+    width: 140px;
+    text-align: center;
+    font-size: 80px;
+    padding-left: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.fundo{
+    background-image: url(img/341846649_7c436c1121_b.jpg);
+    background-size: cover;
+}
